@@ -2,7 +2,7 @@
 
 TEMP_FILE=$(mktemp /tmp/maintenance_index.html.XXXXX)
 
-curl -sSL https://raw.githubusercontent.com/hamidnazari/maintenance/master/index.html > $TEMP_FILE
+curl -sSL https://raw.githubusercontent.com/itconsultis/maintenance/master/index.html > $TEMP_FILE
 
 echo -n "Name (optional): " 1>&2
 read NAME
