@@ -1,0 +1,33 @@
+
+body { 
+    text-align: center;
+    padding: 10%; 
+    font: 20px Helvetica, sans-serif; 
+    color: rgb(238, 236, 236);
+    background-image: url(404.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+h1 { 
+    font-size: 50px; 
+    margin: 0; 
+}
+article { 
+    display: block; 
+    text-align: left; 
+    max-width: 650px;
+    margin-left: 5px; 
+    margin-top: -45px;
+}
+a { 
+    color: #e4dfd9; 
+    text-decoration: none; 
+}
+a:hover { 
+    color: rgb(255, 239, 96); 
+    text-decoration: none; 
+}
+@media only screen and (max-width : 480px) {
+    h1 { font-size: 40px; }
+}
